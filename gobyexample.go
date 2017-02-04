@@ -19,5 +19,6 @@ func main() {
 	//	xiaowenbasic.DeferMain()
 	//	xiaowenbasic.CollectionFunctionsMain()
 	//	xiaowenbasic.StringFunctionsMain()
-	xiaowenbasic.StringFormattingMain()
+	//	xiaowenbasic.StringFormattingMain()
+	xiaowenbasic.RegularExpressionsMain()
 }

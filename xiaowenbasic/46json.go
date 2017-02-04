@@ -6,5 +6,5 @@ import (
 )
 
 func JSONMain() {
-	fmt.Println("Hello World!")
+	fmt.Println("JSON ")
 }
