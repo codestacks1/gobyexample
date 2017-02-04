@@ -1,5 +1,8 @@
 // 21goroutines
 // go例程
+/*
+	Go协程 在执行上来说是轻量级的线程
+*/
 package xiaowenbasic
 
 import (
