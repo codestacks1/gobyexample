@@ -20,5 +20,6 @@ func main() {
 	//	xiaowenbasic.CollectionFunctionsMain()
 	//	xiaowenbasic.StringFunctionsMain()
 	//	xiaowenbasic.StringFormattingMain()
-	xiaowenbasic.RegularExpressionsMain()
+	//	xiaowenbasic.RegularExpressionsMain()
+	xiaowenbasic.JSONMain()
 }
