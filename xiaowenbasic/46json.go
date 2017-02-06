@@ -1,4 +1,21 @@
 // 46json
+/*
+	output：
+			JSON main
+			true
+			1
+			2.34
+			"gopher"
+			["apple","peach","pear"]
+			{"apple":5,"lettuce":7}
+			{"Page":1,"Fruits":["apple","peach","pear"]}
+			{"Page":2,"Fruits":["apple","peach","pear"]}
+			map[num:6.13 strs:[a b]]
+			6.13
+			a
+			{1 [apple peach]}
+			[apple peach]
+*/
 package xiaowenbasic
 
 import (
@@ -65,7 +82,6 @@ func JSONMain() {
 	fmt.Println(res)
 	fmt.Println(res.Fruits)
 	//	fmt.Println(res.Fruits[0])
-
 	//	enc := json.NewEncoder(os.Stdout)
 	//	d := map[string]int{"apple": 5, "lettuce": 7}
 	//	enc.Encode(d)
