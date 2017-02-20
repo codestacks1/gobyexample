@@ -33,5 +33,10 @@ func main() {
 	//	xiaowenbasic.ReadingFilesMain()
 	//	xiaowenbasic.WritingFilesMain()
 	//	xiaowenbasic.LineFiltersMain()
-	xiaowenbasic.CommandLineArgumentsMain()
+	//	xiaowenbasic.CommandLineArgumentsMain()
+	//	xiaowenbasic.CommandLineFlagsMain()
+	//	xiaowenbasic.EnvironmentVariablesMain()
+	//	xiaowenbasic.SpawningProcessesMain()
+	//	xiaowenbasic.ExecingProcessesMain()//不支持windows系统
+	xiaowenbasic.SignalsMain()
 }
