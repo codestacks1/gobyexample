@@ -38,5 +38,6 @@ func main() {
 	//	xiaowenbasic.EnvironmentVariablesMain()
 	//	xiaowenbasic.SpawningProcessesMain()
 	//	xiaowenbasic.ExecingProcessesMain()//不支持windows系统
-	xiaowenbasic.SignalsMain()
+	//	xiaowenbasic.SignalsMain()
+	xiaowenbasic.ExitMain()
 }
