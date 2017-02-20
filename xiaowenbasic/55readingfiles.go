@@ -1,4 +1,7 @@
 // readingfiles
+/**
+	读文件
+**/
 package xiaowenbasic
 
 import (
@@ -12,11 +15,11 @@ import (
 func ReadingFilesMain() {
 	fmt.Println("Reading Files main")
 
-	dat, err := ioutil.ReadFile("/tmp/dat")
+	dat, err := ioutil.ReadFile("tmp/dat")
 	check(err)
 	fmt.Println(string(dat))
 
-	f, err := os.Open("/tmp/dat")
+	f, err := os.Open("tmp/dat")
 	check(err)
 
 	b1 := make([]byte, 5)
@@ -52,5 +55,6 @@ func ReadingFilesMain() {
 func check(e error) {
 	if e != nil {
 		panic(e)
+		fmt.Print("......")
 	}
 }

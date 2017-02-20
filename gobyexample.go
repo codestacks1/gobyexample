@@ -29,5 +29,9 @@ func main() {
 	//	xiaowenbasic.NumberParsingMain()
 	//	xiaowenbasic.URLParsingMain()
 	//	xiaowenbasic.SHA1HashesMain()
-	xiaowenbasic.Base64EncodingMain()
+	//	xiaowenbasic.Base64EncodingMain()
+	//	xiaowenbasic.ReadingFilesMain()
+	//	xiaowenbasic.WritingFilesMain()
+	//	xiaowenbasic.LineFiltersMain()
+	xiaowenbasic.CommandLineArgumentsMain()
 }
